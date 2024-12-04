@@ -1,5 +1,5 @@
 # Evaluation of Double Integrals by Trapezoidal Rule
-
+import numpy as np
 def trapezoidal_double_integral(f, a, b, c, d, m, n):
     h_x = (b - a) / m
     h_y = (d - c) / n
