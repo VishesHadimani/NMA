@@ -1,5 +1,5 @@
 # Euler’s Method
-
+import numpy as np
 def euler_method_verbose(f, x0, y0, x_end, h):
     x = x0
     y = y0
