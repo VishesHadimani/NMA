@@ -1,5 +1,5 @@
 # Numerical Integration using Simpson’s 1/3 Rule(Single)
-
+import numpy as np
 def simpsons_one_third(f, a, b, n):
     if n % 2 != 0:
         raise ValueError("Number of subintervals (n) must be even.")
